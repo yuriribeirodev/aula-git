@@ -1,0 +1,216 @@
+*{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: 'Bai jamjuree';
+        color: #FFFFFF;
+}
+p{
+    font-size: 22px;
+    font-weight:400;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-color: #161616;
+}
+ul,ol{
+    list-style: none;
+
+}
+/* estilos de menu */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #161616;
+    border-bottom: 2px solid #626974;
+    height: 124px;
+    align-items: center;
+}
+.menu__logo{
+    padding: 3rem;
+    color: #FFFFFF;
+}
+.menu__img{
+    width: 85px;
+    height: 54px;
+}
+.menu__lista{
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: #FFFFFF;
+    padding: 3rem;
+}
+.introducao{
+    padding: 3rem;
+    height: 380px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 617px;
+    background-image: url(imgs/logo-transparente.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.introducao__paragrafo{
+    max-width: 840px;
+}
+h1{
+    font-style: bold;
+
+    font-weight: 700;
+    font-size: 42px;
+}
+h2{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 32px;
+    color: #010D21;
+    font-style: bold;
+}
+.resumo{
+    height: 517px; 
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resumo__div{
+    max-width: 1216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 16px;
+    height: 517px;
+    background-color: #2d82b72a;
+    border-radius: 20px;
+}
+.resumo__paragrafo{
+    max-width: 80%;
+}
+#resumo__perguntas{
+    size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+#resumo__perguntas > * {
+    background-color: #E9EEEF;
+    border-radius: 14px;
+    width: 300px;
+    height: 245px;
+    padding: 3rem;
+}
+.resumo__paragrafo{
+    font-weight: 400px;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans';
+    padding-top: 16px;
+    color: #000000;
+    opacity: 0.55;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill__titulo{
+    gap: 36px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill__img{
+    max-width: 80%;
+}
+.projetos{
+    gap: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projetos__paragrafo{
+    font-weight: 400px;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans';
+    padding-top: 16px;
+    color: #FFFFFF;
+    opacity: 0.55;
+}
+.projetos__h2{
+    color: #FFFFFF;
+
+}
+#projetos__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+#projetos__cards > *{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #2D82B733;
+    background-image: url(imgs/Robot.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: bottom;
+    border-radius: 14px;
+    width: 300px;
+    height: 245px;
+    padding: 3rem;
+}
+footer{
+    background-color: #2D82B733;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.footer__textos{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 50%;
+}
+.footer__lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+.footer__ul{
+    font-family: 'Ubuntu Mono';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer__icones{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
